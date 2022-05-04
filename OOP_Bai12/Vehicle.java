@@ -1,6 +1,6 @@
 package OOP_Bai12;
 
-public class Transport {
+public class Vehicle {
 
     protected String id;
 
@@ -12,11 +12,11 @@ public class Transport {
 
     protected String color;
 
-    public Transport() {
+    public Vehicle() {
 
     }
 
-    public Transport(String id, String manufacturer, int yearOfManufacture, float price, String color) {
+    public Vehicle(String id, String manufacturer, int yearOfManufacture, float price, String color) {
         this.id = id;
         this.manufacturer = manufacturer;
         this.yearOfManufacture = yearOfManufacture;

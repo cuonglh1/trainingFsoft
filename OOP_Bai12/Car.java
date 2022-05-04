@@ -1,6 +1,6 @@
 package OOP_Bai12;
 
-public class Car extends Transport{
+public class Car extends Vehicle {
 
     private int seat;
 
